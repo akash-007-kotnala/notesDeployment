@@ -1,0 +1,9 @@
+.main {
+  min-height: 99vh;
+  display: flex;
+  align-items: center;
+  background: url("../LandingPage/background.jpg") rgba(17, 75, 122, 0);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

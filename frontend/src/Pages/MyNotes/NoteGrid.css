@@ -1,0 +1,4 @@
+.fullWidth {
+  margin-left: calc(50% - 39vw);
+  margin-top: 10px;
+}

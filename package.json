@@ -1,0 +1,27 @@
+{
+  "name": "skynotes",
+  "version": "1.0.0",
+  "description": "online notes taker plat form",
+  "main": "server.js",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12",
+    "react-markdown": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "AKASH KOTNALA",
+  "license": "ISC"
+}
